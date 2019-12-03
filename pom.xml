@@ -144,6 +144,7 @@
         <configuration>
           <repository>spring2go/spring-petclinic</repository>
           <tag>${project.version}</tag>
+          <!-- 注意在本地.m2/settings.xml中设置dockerhub账号和密码 -->
           <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
           <buildArgs>
             <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
